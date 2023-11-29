@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Assignment5_Music.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<Assignment5_MusicContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Assignment5_MusicContext") ?? throw new InvalidOperationException("Connection string 'Assignment5_MusicContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
