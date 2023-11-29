@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Assignment5_Music"
+    "\\Assignment5_Music",
+    "\\Assignment5_Music\\Views",
+    "\\Assignment5_Music\\Views\\Shared"
   ],
-  "SelectedNode": "\\Assignment5_Music\\Assignment5_Music.sln",
+  "SelectedNode": "\\Assignment5_Music\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
