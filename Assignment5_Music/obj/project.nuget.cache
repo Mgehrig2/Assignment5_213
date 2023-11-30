@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TpfA82XFrovy4x+poWbQqsTWVGuOgtW61O1TDIlAhG9crQ+HV/5mp2WRZ2nmnyiZ0V4VTjoV2m3jDctzY2PNhA==",
+  "dgSpecHash": "DlVwDXuGmfiqM4LUDL3R6lmSibDw+BxhEtYp1Lq4WGdtQ6tm3vCmulCZT1LUEoMnakbdVmZ+vtiC8qiPZm/E9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tmmor\\Source\\Repos\\Mgehrig2\\Assignment5_213\\Assignment5_Music\\Assignment5_Music.csproj",
+  "projectFilePath": "C:\\Users\\tmmor\\source\\repos\\Mgehrig2\\Assignment5_213\\Assignment5_Music\\Assignment5_Music.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tmmor\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\tmmor\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
