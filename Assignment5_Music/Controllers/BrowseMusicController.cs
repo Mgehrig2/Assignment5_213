@@ -36,7 +36,7 @@ namespace Assignment5_Music.Controllers
 
             if (!string.IsNullOrEmpty(searchString))
             {
-                musics = musics.Where(s => s.Title!.Contains(searchString));
+                musics = musics.Where(s => s.Performer!.Contains(searchString));
             }
 
             if (!string.IsNullOrEmpty(musicGenre))
