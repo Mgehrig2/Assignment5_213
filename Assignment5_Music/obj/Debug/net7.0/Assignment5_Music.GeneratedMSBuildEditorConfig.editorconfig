@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\MEG11\source\repos\Mgehrig2\Assignment5_213\Assignment5_Music
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/MEG11/source/repos/Mgehrig2/Assignment5_213/Assignment5_Music/Views/BrowseMusic/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlTXVzaWNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEG11/source/repos/Mgehrig2/Assignment5_213/Assignment5_Music/Views/BrowseMusic/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlTXVzaWNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEG11/source/repos/Mgehrig2/Assignment5_213/Assignment5_Music/Views/BrowseMusic/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlTXVzaWNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEG11/source/repos/Mgehrig2/Assignment5_213/Assignment5_Music/Views/BrowseMusic/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlTXVzaWNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MEG11/source/repos/Mgehrig2/Assignment5_213/Assignment5_Music/Views/BrowseMusic/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJvd3NlTXVzaWNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MEG11/source/repos/Mgehrig2/Assignment5_213/Assignment5_Music/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
