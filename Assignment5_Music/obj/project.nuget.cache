@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "a58qwCcbLVVTliKykPn1EvSG1MPjYWY0xRiP1aPp9ecJw0CT+Ug9Kv0APpHXL8XhfeUAZQpyL+NvtXnT1OnIqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\MEG11\\source\\repos\\Mgehrig2\\Assignment5_213\\Assignment5_Music\\Assignment5_Music.csproj",
-=======
-  "dgSpecHash": "DlVwDXuGmfiqM4LUDL3R6lmSibDw+BxhEtYp1Lq4WGdtQ6tm3vCmulCZT1LUEoMnakbdVmZ+vtiC8qiPZm/E9w==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\tmmor\\source\\repos\\Mgehrig2\\Assignment5_213\\Assignment5_Music\\Assignment5_Music.csproj",
->>>>>>> be09515e14af87b4fa6a2e2c7c1e93f625c0476b
   "expectedPackageFiles": [
     "C:\\Users\\MEG11\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\MEG11\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

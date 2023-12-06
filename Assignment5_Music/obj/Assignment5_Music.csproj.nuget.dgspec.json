@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\MEG11\\source\\repos\\Mgehrig2\\Assignment5_213\\Assignment5_Music\\Assignment5_Music.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "C:\\Users\\MEG11\\source\\repos\\Mgehrig2\\Assignment5_213\\Assignment5_Music\\Assignment5_Music.csproj",
         "packagesPath": "C:\\Users\\MEG11\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MEG11\\source\\repos\\Mgehrig2\\Assignment5_213\\Assignment5_Music\\obj\\",
-=======
-    "C:\\Users\\tmmor\\source\\repos\\Mgehrig2\\Assignment5_213\\Assignment5_Music\\Assignment5_Music.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\tmmor\\source\\repos\\Mgehrig2\\Assignment5_213\\Assignment5_Music\\Assignment5_Music.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\tmmor\\source\\repos\\Mgehrig2\\Assignment5_213\\Assignment5_Music\\Assignment5_Music.csproj",
-        "projectName": "Assignment5_Music",
-        "projectPath": "C:\\Users\\tmmor\\source\\repos\\Mgehrig2\\Assignment5_213\\Assignment5_Music\\Assignment5_Music.csproj",
-        "packagesPath": "C:\\Users\\tmmor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tmmor\\source\\repos\\Mgehrig2\\Assignment5_213\\Assignment5_Music\\obj\\",
->>>>>>> be09515e14af87b4fa6a2e2c7c1e93f625c0476b
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
