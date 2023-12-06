@@ -27,6 +27,15 @@ namespace Assignment5_Music.Controllers
                 return Problem("Entity set 'Assignment5_Music.Music'  is null.");
             }
 
+
+            // Use LINQ to get list of performers.
+            IQueryable<string> performerQuery = from m in _context.Music
+                                                //where m.Genre == 
+                                                //need to know which genre was selected
+                                                select m.Performer;
+
+            var test = await performerQuery.Distinct().ToListAsync();
+
             // Use LINQ to get list of genres.
             IQueryable<string> genreQuery = from m in _context.Music
                                             orderby m.Genre
@@ -47,6 +56,7 @@ namespace Assignment5_Music.Controllers
             var movieGenreVM = new MusicGenreViewModel
             {
                 Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Performers = new SelectList(await performerQuery.Distinct().ToListAsync()),
                 Musics = await musics.ToListAsync()
             };
 

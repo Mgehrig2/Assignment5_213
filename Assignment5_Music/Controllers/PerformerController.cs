@@ -27,6 +27,8 @@ namespace Assignment5_Music.Controllers
             IQueryable<string> performerQuery = from m in _context.Music
                                             where m.Genre == musicGenre
                                             select m.Performer;
+
+            var test = performerQuery.Distinct().ToListAsync();
             // Use LINQ to get list of genres.
             IQueryable<string> genreQuery = from m in _context.Music
                                             orderby m.Genre
