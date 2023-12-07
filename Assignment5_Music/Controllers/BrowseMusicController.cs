@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Assignment5_Music.Data;
 using Assignment5_Music.Models;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace Assignment5_Music.Controllers
 {
@@ -28,7 +29,6 @@ namespace Assignment5_Music.Controllers
             }
 
 
-
             // Use LINQ to get list of genres.
             IQueryable<string> genreQuery = from m in _context.Music
                                             orderby m.Genre
@@ -37,7 +37,7 @@ namespace Assignment5_Music.Controllers
             string selectedGenre = genreQuery.ToString();
             // Use LINQ to get list of performers.
             IQueryable<string> performerQuery = from m in _context.Music
-                                                //where m.Genre.Equals(selectedGenre)
+                                                //where m.Genre == musics.ToString()
                                                 //need to know which genre was selected
                                                 select m.Performer;
 
@@ -65,6 +65,8 @@ namespace Assignment5_Music.Controllers
 
             return View(movieGenreVM);
         }
+
+
 
         // GET: BrowseMusic/Details/5
         public async Task<IActionResult> Details(int? id)
