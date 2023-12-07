@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using Assignment5_Music.Data;
 using Assignment5_Music.Models;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Assignment5_Music.Controllers
 {
@@ -19,6 +21,7 @@ namespace Assignment5_Music.Controllers
         {
             _context = context;
         }
+
 
         // GET: BrowseMusic
         public async Task<IActionResult> Index(string musicGenre, string searchString)
@@ -37,14 +40,19 @@ namespace Assignment5_Music.Controllers
             string selectedGenre = genreQuery.ToString();
             // Use LINQ to get list of performers.
             IQueryable<string> performerQuery = from m in _context.Music
+                                                //where m.Genre == genreQuery.FirstOrDefault()
                                                 //where m.Genre == musics.ToString()
                                                 //need to know which genre was selected
                                                 select m.Performer;
+
+
 
             var test = await performerQuery.Distinct().ToListAsync();
 
             var musics = from m in _context.Music
                          select m;
+
+
 
             if (!string.IsNullOrEmpty(searchString))
             {
@@ -66,7 +74,10 @@ namespace Assignment5_Music.Controllers
             return View(movieGenreVM);
         }
 
-
+        //public async Task <IActionResult> Performers (IQueryable<string> query)
+        //{
+        //    return View(await _context.Music.ToListAsync());
+        //}
 
         // GET: BrowseMusic/Details/5
         public async Task<IActionResult> Details(int? id)
